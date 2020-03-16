@@ -7,13 +7,20 @@
 // ****
 // *****
 
-var x,y,chr;
-for(x=1; x <=6; x++)
-{
-  for (y=1; y < x; y++)
-  {
-    chr=chr+('*');
+// var x,y,chr;
+// for(x=1; x <=6; x++)
+// {
+//   for (y=1; y < x; y++)
+//   {
+//     chr=chr+('*');
+//   }
+//   console.log(chr);
+//   chr='';
+// }
+
+for(var i=0; i<5; i++){
+  var s = '';
+  for(var j=0; j <=i ;j++){
+    s+='*';
   }
-  console.log(chr);
-  chr='';
-}
+  console.log(s);}
