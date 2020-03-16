@@ -1,5 +1,4 @@
 'use strict';
-<<<<<<< HEAD
 var b = document.getElementById('b1');
 b.addEventListener('click',myScript);
 var myTasks=[];
@@ -43,6 +42,3 @@ function initializeList(){
     addAllTasks();
   }
 }
-=======
-
->>>>>>> sahar
