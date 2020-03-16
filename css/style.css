@@ -13,24 +13,36 @@ top:0;
 z-index:9999;
 font-family: 'Open Sans';
 
+
 }
 
 section#number1{
 
     background-color:#dae4ff ;
     width:25%;
-    margin-top: 30px;
+    margin-top: 40px;
     float:left;
+    font-family: 'Open Sans';
 }
 
 h1{
     text-emphasis:center;
+    font-family: 'Open Sans';
 }
 
 section#number2{
     float: right;
+    text-align: center;
+    font-family: 'Open Sans';
+
 }
 
 #b1{
     background-color:#6d8adbc7; 
+}
+
+#things{
+text-align: center;
+font-family: 'Open Sans';
+
 }
