@@ -1,0 +1,36 @@
+body{
+    font-family: 'Open Sans';
+    background-color:#eee ; 
+}
+
+header{
+background-color:#6d8adbc7 ;
+width:100%;
+padding:17px 0;
+text-align:center;
+position:sticky;
+top:0;
+z-index:9999;
+font-family: 'Open Sans';
+
+}
+
+section#number1{
+
+    background-color:#dae4ff ;
+    width:25%;
+    margin-top: 30px;
+    float:left;
+}
+
+h1{
+    text-emphasis:center;
+}
+
+section#number2{
+    float: right;
+}
+
+#b1{
+    background-color:#6d8adbc7; 
+}

@@ -1,48 +1,46 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>301-Enrance Exam</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="css/style.css">
+    <!-- <link rel="stylesheet"href="css/reset.css"> -->
 </head>
 <body>
   <header>
-<h1>To Do List</h1>
+    To Do List
   </header>
   <section id="number1">
-<form id="things">
-  <fieldset>
-    <h3>add the thing you want to do: </h3>
-    <label for="name">name</label>
-    <input type="text"id="name"placeholder="enter the thing you want to do">
-    <h3>The date</h3>
-    <label for="Date">Date</label>
-<input type="date" id="myDate" value="2014-02-09">
-<p id="demo"></p>
-<input type="submit">
-
-  </fieldset>
-</form>
+    <form id="things">
+      <fieldset>
+        <h1>March 9 2020</h1>
+        <h3>add thing you want to do</h3>
+        <label for="name">name</label>
+        <input type="text"id="textfield"placeholder="enter thing that whould do">
+        <h3>Date field</h3>
+         <input type="date" id="datefield" value="2014-02-09">
+         <p id="demo"></p>
+         <button id="b1"type="button">Submit</button>
+      </fieldset>
+    </form>
   </section>
-
   <section id="number2">
-
-
+    <ol id="MyToDo"></ol>
 
   </section>
-  <script src="js/app.js"></script>
-  <footer>
+    <footer>
 
-  </footer>
-  <script>
-    function myFunction() {
-  var x = document.getElementById("myDate").value;
-  document.getElementById("demo").innerHTML = x;
+    </footer>
+    <script>
+      function myFunction() {
+var x = document.getElementById("myDate").value;
+document.getElementById("demo").innerHTML = x;
 }
-  </script>
+    </script>
+    <script src="js/app.js"></script>
+
 </body>
 </html>
