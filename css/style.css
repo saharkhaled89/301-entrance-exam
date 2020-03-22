@@ -20,10 +20,12 @@ font-weight: bolder;
 
 }
 
-
+section#number1{
+    text-align: center;
+}
 
 h1{
-    text-emphasis:center;
+  
     text-emphasis: center;
     /* font-family: 'Open Sans'; */
     font-family: 'Roboto', sans-serif;
