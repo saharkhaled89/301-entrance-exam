@@ -61,12 +61,15 @@ section#number2{
     
 }
 
-#things{
+/* #things{
 text-align: center;
-/* font-family: 'Open Sans'; */
+font-family: 'Open Sans';
 font-family: 'Roboto', sans-serif;
+background-color:#dae4ff ;
+width:30%; */
 
-}
+
+/* } */
 
 #datefield{
     width: 400px;
