@@ -20,20 +20,11 @@ font-weight: bolder;
 
 }
 
-section#number1{
 
-    background-color:#dae4ff ;
-    width:30%;
-    margin-top: 150px;
-    margin-bottom: 50px;
-    float:left;
-    /* font-family: 'Open Sans'; */
-    font-family: 'Roboto', sans-serif;
-}
 
 h1{
     text-emphasis:center;
-    
+    text-emphasis: center;
     /* font-family: 'Open Sans'; */
     font-family: 'Roboto', sans-serif;
     margin-bottom: 50px;
@@ -41,8 +32,8 @@ h1{
 
 section#number2{
     float: left;
-    margin-top: 100px;
-    margin-left: 40px;
+    margin-top: -500px;
+    margin-left: 600px;
     text-align: center;
     /* font-family: 'Open Sans'; */
     font-family: 'Roboto', sans-serif;
@@ -61,15 +52,21 @@ section#number2{
     
 }
 
-/* #things{
-text-align: center;
-font-family: 'Open Sans';
+#things{
+
 font-family: 'Roboto', sans-serif;
 background-color:#dae4ff ;
-width:30%; */
+text-align: center;
+background-color:#dae4ff ;
+width:30%;
+margin-top: 150px;
+margin-bottom: 50px;
+margin-left: 90px;
+/* font-family: 'Open Sans'; */
+font-family: 'Roboto', sans-serif;
 
 
-/* } */
+}
 
 #datefield{
     width: 400px;
